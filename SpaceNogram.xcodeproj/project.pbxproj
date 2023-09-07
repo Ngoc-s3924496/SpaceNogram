@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1AF5DF2A976AB500B97C7C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC1AF5DB2A976AB500B97C7C /* Inter-Bold.ttf */; };
+		EC1AF5E02A976AB500B97C7C /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC1AF5DC2A976AB500B97C7C /* Inter-Medium.ttf */; };
+		EC1AF5E12A976AB500B97C7C /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC1AF5DD2A976AB500B97C7C /* Inter-Black.ttf */; };
+		EC1AF5E22A976AB500B97C7C /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC1AF5DE2A976AB500B97C7C /* Inter-ExtraBold.ttf */; };
+		EC1AF5E72A9885BD00B97C7C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC1AF5E62A9885BD00B97C7C /* Inter-SemiBold.ttf */; };
+		EC1AF5E92A9CCCBC00B97C7C /* GameViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1AF5E82A9CCCBC00B97C7C /* GameViewHelper.swift */; };
+		EC3549E92AA8A58C005271F6 /* LeaderboardViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549E82AA8A58C005271F6 /* LeaderboardViewIphone14.swift */; };
+		EC3549EB2AA8A5B0005271F6 /* LeaderboardViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549EA2AA8A5B0005271F6 /* LeaderboardViewIphone14ProMax.swift */; };
+		EC3549ED2AA8A5E9005271F6 /* LeaderboardViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549EC2AA8A5E9005271F6 /* LeaderboardViewIpad11.swift */; };
+		EC3549EF2AA8A604005271F6 /* LeaderboardViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549EE2AA8A604005271F6 /* LeaderboardViewIpad12.swift */; };
+		EC3549F32AA8A8A9005271F6 /* OptionViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549F22AA8A8A9005271F6 /* OptionViewIphone14.swift */; };
+		EC3549F52AA8A8D2005271F6 /* OptionViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549F42AA8A8D2005271F6 /* OptionViewIphone14ProMax.swift */; };
+		EC3549F72AA8A8EB005271F6 /* OptionViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549F62AA8A8EB005271F6 /* OptionViewIpad11.swift */; };
+		EC3549F92AA8A906005271F6 /* OptionViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549F82AA8A906005271F6 /* OptionViewIpad12.swift */; };
+		EC3549FC2AA8ABCD005271F6 /* ProfileViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549FB2AA8ABCD005271F6 /* ProfileViewIphone14.swift */; };
+		EC3549FE2AA8ABF7005271F6 /* ProfileViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549FD2AA8ABF7005271F6 /* ProfileViewIphone14ProMax.swift */; };
+		EC354A002AA8AC1E005271F6 /* ProfileViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3549FF2AA8AC1E005271F6 /* ProfileViewIpad11.swift */; };
+		EC354A022AA8AC2E005271F6 /* ProfileViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A012AA8AC2E005271F6 /* ProfileViewIpad12.swift */; };
+		EC354A042AA8AC4B005271F6 /* ProfileViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A032AA8AC4B005271F6 /* ProfileViewHelper.swift */; };
+		EC354A072AA8AF33005271F6 /* ContinueViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A062AA8AF33005271F6 /* ContinueViewIphone14.swift */; };
+		EC354A092AA8AF4B005271F6 /* ContinueViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A082AA8AF4B005271F6 /* ContinueViewIphone14ProMax.swift */; };
+		EC354A0B2AA8AF6B005271F6 /* ContinueViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A0A2AA8AF6B005271F6 /* ContinueViewIpad11.swift */; };
+		EC354A0D2AA8AF7D005271F6 /* ContinueViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A0C2AA8AF7D005271F6 /* ContinueViewIpad12.swift */; };
+		EC354A112AA8B143005271F6 /* HowToPlayViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A102AA8B143005271F6 /* HowToPlayViewIphone14.swift */; };
+		EC354A132AA8B165005271F6 /* HowToPlayViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A122AA8B165005271F6 /* HowToPlayViewIphone14ProMax.swift */; };
+		EC354A152AA8B182005271F6 /* HowToPlayViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A142AA8B182005271F6 /* HowToPlayViewIpad11.swift */; };
+		EC354A172AA8B19C005271F6 /* HowToPlayViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A162AA8B19C005271F6 /* HowToPlayViewIpad12.swift */; };
+		EC354A192AA8B1B9005271F6 /* HowToPlayViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A182AA8B1B9005271F6 /* HowToPlayViewHelper.swift */; };
+		EC354A1B2AA8B2E2005271F6 /* GameViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A1A2AA8B2E2005271F6 /* GameViewIpad12.swift */; };
+		EC354A1D2AA8B309005271F6 /* PauseViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A1C2AA8B309005271F6 /* PauseViewIpad12.swift */; };
+		EC354A1F2AA8B323005271F6 /* WinViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A1E2AA8B323005271F6 /* WinViewIpad12.swift */; };
+		EC354A212AA8B346005271F6 /* LoseViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A202AA8B346005271F6 /* LoseViewIpad12.swift */; };
+		EC354A232AA8B35B005271F6 /* GameViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A222AA8B35B005271F6 /* GameViewIphone14.swift */; };
+		EC354A252AA8B384005271F6 /* PauseViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A242AA8B384005271F6 /* PauseViewIphone14.swift */; };
+		EC354A272AA8B39A005271F6 /* WinViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A262AA8B39A005271F6 /* WinViewIphone14.swift */; };
+		EC354A292AA8B3AE005271F6 /* LoseViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A282AA8B3AE005271F6 /* LoseViewIphone14.swift */; };
+		EC354A2B2AA8B3CC005271F6 /* GameViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A2A2AA8B3CC005271F6 /* GameViewIphone14ProMax.swift */; };
+		EC354A2D2AA8B3E5005271F6 /* PauseViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A2C2AA8B3E5005271F6 /* PauseViewIphone14ProMax.swift */; };
+		EC354A2F2AA8B402005271F6 /* WinViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A2E2AA8B402005271F6 /* WinViewIphone14ProMax.swift */; };
+		EC354A312AA8B41D005271F6 /* LoseViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A302AA8B41D005271F6 /* LoseViewIphone14ProMax.swift */; };
+		EC354A332AA8B432005271F6 /* GameViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A322AA8B432005271F6 /* GameViewIpad11.swift */; };
+		EC354A352AA8B44B005271F6 /* PauseViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A342AA8B44B005271F6 /* PauseViewIpad11.swift */; };
+		EC354A372AA8B45E005271F6 /* WinViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A362AA8B45E005271F6 /* WinViewIpad11.swift */; };
+		EC354A392AA8B47C005271F6 /* LoseViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC354A382AA8B47C005271F6 /* LoseViewIpad11.swift */; };
+		EC5637392A946B4A0095F799 /* SpaceNogramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5637382A946B4A0095F799 /* SpaceNogramApp.swift */; };
+		EC56373B2A946B4A0095F799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56373A2A946B4A0095F799 /* ContentView.swift */; };
+		EC56373D2A946B4B0095F799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56373C2A946B4B0095F799 /* Assets.xcassets */; };
+		EC5637402A946B4B0095F799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56373F2A946B4B0095F799 /* Preview Assets.xcassets */; };
+		EC56374A2A946B4B0095F799 /* SpaceNogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5637492A946B4B0095F799 /* SpaceNogramTests.swift */; };
+		EC5637542A946B4B0095F799 /* SpaceNogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5637532A946B4B0095F799 /* SpaceNogramUITests.swift */; };
+		EC5637562A946B4B0095F799 /* SpaceNogramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5637552A946B4B0095F799 /* SpaceNogramUITestsLaunchTests.swift */; };
+		EC5E28F92AA664C600836FFB /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E28F82AA664C600836FFB /* AudioManager.swift */; };
+		EC5E29012AA66F0E00836FFB /* Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29002AA66F0E00836FFB /* Background.mp3 */; };
+		EC5E29032AA67A0600836FFB /* GameView.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29022AA67A0600836FFB /* GameView.mp3 */; };
+		EC5E290A2AA682C100836FFB /* WinningStars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29042AA682C100836FFB /* WinningStars.mp3 */; };
+		EC5E290B2AA682C100836FFB /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29052AA682C100836FFB /* Click.mp3 */; };
+		EC5E290C2AA682C100836FFB /* LevelCompleted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29062AA682C100836FFB /* LevelCompleted.mp3 */; };
+		EC5E290D2AA682C100836FFB /* CorrectStep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29072AA682C100836FFB /* CorrectStep.mp3 */; };
+		EC5E290E2AA682C100836FFB /* BombExplosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29082AA682C100836FFB /* BombExplosion.mp3 */; };
+		EC5E290F2AA682C100836FFB /* LevelFailed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5E29092AA682C100836FFB /* LevelFailed.mp3 */; };
+		EC6F90D92AA4AD2C008763FE /* Iphone14ProMaxTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6F90D82AA4AD2C008763FE /* Iphone14ProMaxTile.swift */; };
+		EC6F90DF2AA51199008763FE /* Ipad11Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6F90DE2AA51199008763FE /* Ipad11Tile.swift */; };
+		EC827D8E2AA89533002AF442 /* MainMenuViewIphone14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC827D8D2AA89533002AF442 /* MainMenuViewIphone14.swift */; };
+		EC827D902AA89CE8002AF442 /* MainMenuViewIphone14ProMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC827D8F2AA89CE8002AF442 /* MainMenuViewIphone14ProMax.swift */; };
+		EC827D922AA89D4E002AF442 /* MainMenuViewIpad11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC827D912AA89D4E002AF442 /* MainMenuViewIpad11.swift */; };
+		EC827D942AA89D7F002AF442 /* MainMenuViewIpad12.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC827D932AA89D7F002AF442 /* MainMenuViewIpad12.swift */; };
+		ECA3D49C2A9E0B0D00C47299 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3D49B2A9E0B0D00C47299 /* Player.swift */; };
+		ECA3D4A02A9E0D8700C47299 /* GameDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3D49F2A9E0D8700C47299 /* GameDataStore.swift */; };
+		ECA3D4A22A9E126400C47299 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = ECA3D4A12A9E126400C47299 /* Data.json */; };
+		ECB5E5302AA51F7C002E3DBC /* Ipad12Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5E52F2AA51F7C002E3DBC /* Ipad12Tile.swift */; };
+		ECC1E9212A94714A00CE2F60 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1E9202A94714A00CE2F60 /* MainMenuView.swift */; };
+		ECCA45A62A96229500EAEC64 /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECCA45A42A96229500EAEC64 /* Poppins-Bold.otf */; };
+		ECCA45A72A96229500EAEC64 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECCA45A52A96229500EAEC64 /* Poppins-Medium.otf */; };
+		ECEF43AF2AA1058C00630C3C /* GameFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF43AE2AA1058C00630C3C /* GameFunction.swift */; };
+		ECEF43B62AA10EF700630C3C /* Iphone14Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF43B52AA10EF700630C3C /* Iphone14Tile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5637462A946B4B0095F799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC56372D2A946B4A0095F799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5637342A946B4A0095F799;
+			remoteInfo = SpaceNogram;
+		};
+		EC5637502A946B4B0095F799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC56372D2A946B4A0095F799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5637342A946B4A0095F799;
+			remoteInfo = SpaceNogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1AF5DB2A976AB500B97C7C /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		EC1AF5DC2A976AB500B97C7C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		EC1AF5DD2A976AB500B97C7C /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		EC1AF5DE2A976AB500B97C7C /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EC1AF5E62A9885BD00B97C7C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		EC1AF5E82A9CCCBC00B97C7C /* GameViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewHelper.swift; sourceTree = "<group>"; };
+		EC3549E82AA8A58C005271F6 /* LeaderboardViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewIphone14.swift; sourceTree = "<group>"; };
+		EC3549EA2AA8A5B0005271F6 /* LeaderboardViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC3549EC2AA8A5E9005271F6 /* LeaderboardViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewIpad11.swift; sourceTree = "<group>"; };
+		EC3549EE2AA8A604005271F6 /* LeaderboardViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewIpad12.swift; sourceTree = "<group>"; };
+		EC3549F22AA8A8A9005271F6 /* OptionViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewIphone14.swift; sourceTree = "<group>"; };
+		EC3549F42AA8A8D2005271F6 /* OptionViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC3549F62AA8A8EB005271F6 /* OptionViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewIpad11.swift; sourceTree = "<group>"; };
+		EC3549F82AA8A906005271F6 /* OptionViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewIpad12.swift; sourceTree = "<group>"; };
+		EC3549FB2AA8ABCD005271F6 /* ProfileViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewIphone14.swift; sourceTree = "<group>"; };
+		EC3549FD2AA8ABF7005271F6 /* ProfileViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC3549FF2AA8AC1E005271F6 /* ProfileViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewIpad11.swift; sourceTree = "<group>"; };
+		EC354A012AA8AC2E005271F6 /* ProfileViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A032AA8AC4B005271F6 /* ProfileViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewHelper.swift; sourceTree = "<group>"; };
+		EC354A062AA8AF33005271F6 /* ContinueViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewIphone14.swift; sourceTree = "<group>"; };
+		EC354A082AA8AF4B005271F6 /* ContinueViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC354A0A2AA8AF6B005271F6 /* ContinueViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewIpad11.swift; sourceTree = "<group>"; };
+		EC354A0C2AA8AF7D005271F6 /* ContinueViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A102AA8B143005271F6 /* HowToPlayViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewIphone14.swift; sourceTree = "<group>"; };
+		EC354A122AA8B165005271F6 /* HowToPlayViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC354A142AA8B182005271F6 /* HowToPlayViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewIpad11.swift; sourceTree = "<group>"; };
+		EC354A162AA8B19C005271F6 /* HowToPlayViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A182AA8B1B9005271F6 /* HowToPlayViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewHelper.swift; sourceTree = "<group>"; };
+		EC354A1A2AA8B2E2005271F6 /* GameViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A1C2AA8B309005271F6 /* PauseViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A1E2AA8B323005271F6 /* WinViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A202AA8B346005271F6 /* LoseViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewIpad12.swift; sourceTree = "<group>"; };
+		EC354A222AA8B35B005271F6 /* GameViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewIphone14.swift; sourceTree = "<group>"; };
+		EC354A242AA8B384005271F6 /* PauseViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewIphone14.swift; sourceTree = "<group>"; };
+		EC354A262AA8B39A005271F6 /* WinViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewIphone14.swift; sourceTree = "<group>"; };
+		EC354A282AA8B3AE005271F6 /* LoseViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewIphone14.swift; sourceTree = "<group>"; };
+		EC354A2A2AA8B3CC005271F6 /* GameViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC354A2C2AA8B3E5005271F6 /* PauseViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC354A2E2AA8B402005271F6 /* WinViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC354A302AA8B41D005271F6 /* LoseViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC354A322AA8B432005271F6 /* GameViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewIpad11.swift; sourceTree = "<group>"; };
+		EC354A342AA8B44B005271F6 /* PauseViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewIpad11.swift; sourceTree = "<group>"; };
+		EC354A362AA8B45E005271F6 /* WinViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewIpad11.swift; sourceTree = "<group>"; };
+		EC354A382AA8B47C005271F6 /* LoseViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewIpad11.swift; sourceTree = "<group>"; };
+		EC5637352A946B4A0095F799 /* SpaceNogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceNogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5637382A946B4A0095F799 /* SpaceNogramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNogramApp.swift; sourceTree = "<group>"; };
+		EC56373A2A946B4A0095F799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC56373C2A946B4B0095F799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC56373F2A946B4B0095F799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5637452A946B4B0095F799 /* SpaceNogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceNogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5637492A946B4B0095F799 /* SpaceNogramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNogramTests.swift; sourceTree = "<group>"; };
+		EC56374F2A946B4B0095F799 /* SpaceNogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceNogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5637532A946B4B0095F799 /* SpaceNogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNogramUITests.swift; sourceTree = "<group>"; };
+		EC5637552A946B4B0095F799 /* SpaceNogramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNogramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC5E28F82AA664C600836FFB /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		EC5E29002AA66F0E00836FFB /* Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Background.mp3; sourceTree = "<group>"; };
+		EC5E29022AA67A0600836FFB /* GameView.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameView.mp3; sourceTree = "<group>"; };
+		EC5E29042AA682C100836FFB /* WinningStars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WinningStars.mp3; sourceTree = "<group>"; };
+		EC5E29052AA682C100836FFB /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
+		EC5E29062AA682C100836FFB /* LevelCompleted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LevelCompleted.mp3; sourceTree = "<group>"; };
+		EC5E29072AA682C100836FFB /* CorrectStep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CorrectStep.mp3; sourceTree = "<group>"; };
+		EC5E29082AA682C100836FFB /* BombExplosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BombExplosion.mp3; sourceTree = "<group>"; };
+		EC5E29092AA682C100836FFB /* LevelFailed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LevelFailed.mp3; sourceTree = "<group>"; };
+		EC6F90D82AA4AD2C008763FE /* Iphone14ProMaxTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone14ProMaxTile.swift; sourceTree = "<group>"; };
+		EC6F90DE2AA51199008763FE /* Ipad11Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ipad11Tile.swift; sourceTree = "<group>"; };
+		EC827D8D2AA89533002AF442 /* MainMenuViewIphone14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewIphone14.swift; sourceTree = "<group>"; };
+		EC827D8F2AA89CE8002AF442 /* MainMenuViewIphone14ProMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewIphone14ProMax.swift; sourceTree = "<group>"; };
+		EC827D912AA89D4E002AF442 /* MainMenuViewIpad11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewIpad11.swift; sourceTree = "<group>"; };
+		EC827D932AA89D7F002AF442 /* MainMenuViewIpad12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewIpad12.swift; sourceTree = "<group>"; };
+		ECA3D49B2A9E0B0D00C47299 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ECA3D49F2A9E0D8700C47299 /* GameDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataStore.swift; sourceTree = "<group>"; };
+		ECA3D4A12A9E126400C47299 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		ECB5E52F2AA51F7C002E3DBC /* Ipad12Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ipad12Tile.swift; sourceTree = "<group>"; };
+		ECC1E9202A94714A00CE2F60 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		ECC1E92B2A94F8FA00CE2F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ECCA45A42A96229500EAEC64 /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		ECCA45A52A96229500EAEC64 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		ECEF43AE2AA1058C00630C3C /* GameFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFunction.swift; sourceTree = "<group>"; };
+		ECEF43B52AA10EF700630C3C /* Iphone14Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone14Tile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5637322A946B4A0095F799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5637422A946B4B0095F799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56374C2A946B4B0095F799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3549E62AA8A2A6005271F6 /* HelperFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E28F82AA664C600836FFB /* AudioManager.swift */,
+				ECEF43AE2AA1058C00630C3C /* GameFunction.swift */,
+			);
+			path = HelperFolder;
+			sourceTree = "<group>";
+		};
+		EC3549E72AA8A574005271F6 /* LeaderboardFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC3549E82AA8A58C005271F6 /* LeaderboardViewIphone14.swift */,
+				EC3549EA2AA8A5B0005271F6 /* LeaderboardViewIphone14ProMax.swift */,
+				EC3549EC2AA8A5E9005271F6 /* LeaderboardViewIpad11.swift */,
+				EC3549EE2AA8A604005271F6 /* LeaderboardViewIpad12.swift */,
+			);
+			path = LeaderboardFolder;
+			sourceTree = "<group>";
+		};
+		EC3549F02AA8A87D005271F6 /* DataFolder */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3D49B2A9E0B0D00C47299 /* Player.swift */,
+				ECA3D4A12A9E126400C47299 /* Data.json */,
+				ECA3D49F2A9E0D8700C47299 /* GameDataStore.swift */,
+			);
+			path = DataFolder;
+			sourceTree = "<group>";
+		};
+		EC3549F12AA8A88D005271F6 /* OptionFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC3549F22AA8A8A9005271F6 /* OptionViewIphone14.swift */,
+				EC3549F42AA8A8D2005271F6 /* OptionViewIphone14ProMax.swift */,
+				EC3549F62AA8A8EB005271F6 /* OptionViewIpad11.swift */,
+				EC3549F82AA8A906005271F6 /* OptionViewIpad12.swift */,
+			);
+			path = OptionFolder;
+			sourceTree = "<group>";
+		};
+		EC3549FA2AA8ABB4005271F6 /* ProfileFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC3549FB2AA8ABCD005271F6 /* ProfileViewIphone14.swift */,
+				EC3549FD2AA8ABF7005271F6 /* ProfileViewIphone14ProMax.swift */,
+				EC3549FF2AA8AC1E005271F6 /* ProfileViewIpad11.swift */,
+				EC354A012AA8AC2E005271F6 /* ProfileViewIpad12.swift */,
+				EC354A032AA8AC4B005271F6 /* ProfileViewHelper.swift */,
+			);
+			path = ProfileFolder;
+			sourceTree = "<group>";
+		};
+		EC354A052AA8AF14005271F6 /* ContinueFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC354A062AA8AF33005271F6 /* ContinueViewIphone14.swift */,
+				EC354A082AA8AF4B005271F6 /* ContinueViewIphone14ProMax.swift */,
+				EC354A0A2AA8AF6B005271F6 /* ContinueViewIpad11.swift */,
+				EC354A0C2AA8AF7D005271F6 /* ContinueViewIpad12.swift */,
+			);
+			path = ContinueFolder;
+			sourceTree = "<group>";
+		};
+		EC354A0F2AA8B131005271F6 /* HowToPlayFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC354A102AA8B143005271F6 /* HowToPlayViewIphone14.swift */,
+				EC354A122AA8B165005271F6 /* HowToPlayViewIphone14ProMax.swift */,
+				EC354A142AA8B182005271F6 /* HowToPlayViewIpad11.swift */,
+				EC354A162AA8B19C005271F6 /* HowToPlayViewIpad12.swift */,
+				EC354A182AA8B1B9005271F6 /* HowToPlayViewHelper.swift */,
+			);
+			path = HowToPlayFolder;
+			sourceTree = "<group>";
+		};
+		EC56372C2A946B4A0095F799 = {
+			isa = PBXGroup;
+			children = (
+				EC5637372A946B4A0095F799 /* SpaceNogram */,
+				EC5637482A946B4B0095F799 /* SpaceNogramTests */,
+				EC5637522A946B4B0095F799 /* SpaceNogramUITests */,
+				EC5637362A946B4A0095F799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5637362A946B4A0095F799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5637352A946B4A0095F799 /* SpaceNogram.app */,
+				EC5637452A946B4B0095F799 /* SpaceNogramTests.xctest */,
+				EC56374F2A946B4B0095F799 /* SpaceNogramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5637372A946B4A0095F799 /* SpaceNogram */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF43B02AA10E6D00630C3C /* GameView */,
+				EC354A0F2AA8B131005271F6 /* HowToPlayFolder */,
+				EC354A052AA8AF14005271F6 /* ContinueFolder */,
+				EC3549FA2AA8ABB4005271F6 /* ProfileFolder */,
+				EC3549F12AA8A88D005271F6 /* OptionFolder */,
+				EC3549E72AA8A574005271F6 /* LeaderboardFolder */,
+				EC3549E62AA8A2A6005271F6 /* HelperFolder */,
+				EC827D8C2AA89515002AF442 /* MainMenuFolder */,
+				EC5E28E72AA662D200836FFB /* SoundEffect */,
+				EC5E28E62AA662C800836FFB /* BackgroundMusic */,
+				ECC1E92B2A94F8FA00CE2F60 /* Info.plist */,
+				ECC1E9262A94F88B00CE2F60 /* Font */,
+				EC5637382A946B4A0095F799 /* SpaceNogramApp.swift */,
+				EC56373A2A946B4A0095F799 /* ContentView.swift */,
+				EC56373C2A946B4B0095F799 /* Assets.xcassets */,
+				EC56373E2A946B4B0095F799 /* Preview Content */,
+				EC3549F02AA8A87D005271F6 /* DataFolder */,
+			);
+			path = SpaceNogram;
+			sourceTree = "<group>";
+		};
+		EC56373E2A946B4B0095F799 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC56373F2A946B4B0095F799 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5637482A946B4B0095F799 /* SpaceNogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5637492A946B4B0095F799 /* SpaceNogramTests.swift */,
+			);
+			path = SpaceNogramTests;
+			sourceTree = "<group>";
+		};
+		EC5637522A946B4B0095F799 /* SpaceNogramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5637532A946B4B0095F799 /* SpaceNogramUITests.swift */,
+				EC5637552A946B4B0095F799 /* SpaceNogramUITestsLaunchTests.swift */,
+			);
+			path = SpaceNogramUITests;
+			sourceTree = "<group>";
+		};
+		EC5E28E62AA662C800836FFB /* BackgroundMusic */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E29022AA67A0600836FFB /* GameView.mp3 */,
+				EC5E29002AA66F0E00836FFB /* Background.mp3 */,
+			);
+			path = BackgroundMusic;
+			sourceTree = "<group>";
+		};
+		EC5E28E72AA662D200836FFB /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E29082AA682C100836FFB /* BombExplosion.mp3 */,
+				EC5E29052AA682C100836FFB /* Click.mp3 */,
+				EC5E29072AA682C100836FFB /* CorrectStep.mp3 */,
+				EC5E29062AA682C100836FFB /* LevelCompleted.mp3 */,
+				EC5E29092AA682C100836FFB /* LevelFailed.mp3 */,
+				EC5E29042AA682C100836FFB /* WinningStars.mp3 */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		EC6F90DC2AA5113A008763FE /* Iphone14ProMax */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F90D82AA4AD2C008763FE /* Iphone14ProMaxTile.swift */,
+				EC354A2A2AA8B3CC005271F6 /* GameViewIphone14ProMax.swift */,
+				EC354A2C2AA8B3E5005271F6 /* PauseViewIphone14ProMax.swift */,
+				EC354A2E2AA8B402005271F6 /* WinViewIphone14ProMax.swift */,
+				EC354A302AA8B41D005271F6 /* LoseViewIphone14ProMax.swift */,
+			);
+			name = Iphone14ProMax;
+			sourceTree = "<group>";
+		};
+		EC6F90DD2AA5118A008763FE /* Ipad11 */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F90DE2AA51199008763FE /* Ipad11Tile.swift */,
+				EC354A322AA8B432005271F6 /* GameViewIpad11.swift */,
+				EC354A342AA8B44B005271F6 /* PauseViewIpad11.swift */,
+				EC354A362AA8B45E005271F6 /* WinViewIpad11.swift */,
+				EC354A382AA8B47C005271F6 /* LoseViewIpad11.swift */,
+			);
+			name = Ipad11;
+			sourceTree = "<group>";
+		};
+		EC827D8C2AA89515002AF442 /* MainMenuFolder */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1E9202A94714A00CE2F60 /* MainMenuView.swift */,
+				EC827D8D2AA89533002AF442 /* MainMenuViewIphone14.swift */,
+				EC827D8F2AA89CE8002AF442 /* MainMenuViewIphone14ProMax.swift */,
+				EC827D912AA89D4E002AF442 /* MainMenuViewIpad11.swift */,
+				EC827D932AA89D7F002AF442 /* MainMenuViewIpad12.swift */,
+			);
+			path = MainMenuFolder;
+			sourceTree = "<group>";
+		};
+		ECB5E52E2AA51F6D002E3DBC /* Ipad12 */ = {
+			isa = PBXGroup;
+			children = (
+				ECB5E52F2AA51F7C002E3DBC /* Ipad12Tile.swift */,
+				EC354A1A2AA8B2E2005271F6 /* GameViewIpad12.swift */,
+				EC354A1C2AA8B309005271F6 /* PauseViewIpad12.swift */,
+				EC354A1E2AA8B323005271F6 /* WinViewIpad12.swift */,
+				EC354A202AA8B346005271F6 /* LoseViewIpad12.swift */,
+			);
+			name = Ipad12;
+			sourceTree = "<group>";
+		};
+		ECC1E9262A94F88B00CE2F60 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA45A42A96229500EAEC64 /* Poppins-Bold.otf */,
+				EC1AF5DD2A976AB500B97C7C /* Inter-Black.ttf */,
+				EC1AF5DB2A976AB500B97C7C /* Inter-Bold.ttf */,
+				EC1AF5DE2A976AB500B97C7C /* Inter-ExtraBold.ttf */,
+				EC1AF5E62A9885BD00B97C7C /* Inter-SemiBold.ttf */,
+				EC1AF5DC2A976AB500B97C7C /* Inter-Medium.ttf */,
+				ECCA45A52A96229500EAEC64 /* Poppins-Medium.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		ECEF43B02AA10E6D00630C3C /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				ECB5E52E2AA51F6D002E3DBC /* Ipad12 */,
+				EC6F90DD2AA5118A008763FE /* Ipad11 */,
+				EC6F90DC2AA5113A008763FE /* Iphone14ProMax */,
+				ECEF43B42AA10ED300630C3C /* Iphone14 */,
+				EC1AF5E82A9CCCBC00B97C7C /* GameViewHelper.swift */,
+			);
+			name = GameView;
+			sourceTree = "<group>";
+		};
+		ECEF43B42AA10ED300630C3C /* Iphone14 */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF43B52AA10EF700630C3C /* Iphone14Tile.swift */,
+				EC354A222AA8B35B005271F6 /* GameViewIphone14.swift */,
+				EC354A242AA8B384005271F6 /* PauseViewIphone14.swift */,
+				EC354A262AA8B39A005271F6 /* WinViewIphone14.swift */,
+				EC354A282AA8B3AE005271F6 /* LoseViewIphone14.swift */,
+			);
+			name = Iphone14;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5637342A946B4A0095F799 /* SpaceNogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5637592A946B4B0095F799 /* Build configuration list for PBXNativeTarget "SpaceNogram" */;
+			buildPhases = (
+				EC5637312A946B4A0095F799 /* Sources */,
+				EC5637322A946B4A0095F799 /* Frameworks */,
+				EC5637332A946B4A0095F799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceNogram;
+			productName = SpaceNogram;
+			productReference = EC5637352A946B4A0095F799 /* SpaceNogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5637442A946B4B0095F799 /* SpaceNogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56375C2A946B4B0095F799 /* Build configuration list for PBXNativeTarget "SpaceNogramTests" */;
+			buildPhases = (
+				EC5637412A946B4B0095F799 /* Sources */,
+				EC5637422A946B4B0095F799 /* Frameworks */,
+				EC5637432A946B4B0095F799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5637472A946B4B0095F799 /* PBXTargetDependency */,
+			);
+			name = SpaceNogramTests;
+			productName = SpaceNogramTests;
+			productReference = EC5637452A946B4B0095F799 /* SpaceNogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC56374E2A946B4B0095F799 /* SpaceNogramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56375F2A946B4B0095F799 /* Build configuration list for PBXNativeTarget "SpaceNogramUITests" */;
+			buildPhases = (
+				EC56374B2A946B4B0095F799 /* Sources */,
+				EC56374C2A946B4B0095F799 /* Frameworks */,
+				EC56374D2A946B4B0095F799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5637512A946B4B0095F799 /* PBXTargetDependency */,
+			);
+			name = SpaceNogramUITests;
+			productName = SpaceNogramUITests;
+			productReference = EC56374F2A946B4B0095F799 /* SpaceNogramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC56372D2A946B4A0095F799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EC5637342A946B4A0095F799 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EC5637442A946B4B0095F799 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EC5637342A946B4A0095F799;
+					};
+					EC56374E2A946B4B0095F799 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EC5637342A946B4A0095F799;
+					};
+				};
+			};
+			buildConfigurationList = EC5637302A946B4A0095F799 /* Build configuration list for PBXProject "SpaceNogram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC56372C2A946B4A0095F799;
+			productRefGroup = EC5637362A946B4A0095F799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5637342A946B4A0095F799 /* SpaceNogram */,
+				EC5637442A946B4B0095F799 /* SpaceNogramTests */,
+				EC56374E2A946B4B0095F799 /* SpaceNogramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5637332A946B4A0095F799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA45A72A96229500EAEC64 /* Poppins-Medium.otf in Resources */,
+				EC5E29012AA66F0E00836FFB /* Background.mp3 in Resources */,
+				EC5E290A2AA682C100836FFB /* WinningStars.mp3 in Resources */,
+				EC5E290B2AA682C100836FFB /* Click.mp3 in Resources */,
+				EC5E290E2AA682C100836FFB /* BombExplosion.mp3 in Resources */,
+				EC1AF5DF2A976AB500B97C7C /* Inter-Bold.ttf in Resources */,
+				EC1AF5E02A976AB500B97C7C /* Inter-Medium.ttf in Resources */,
+				EC1AF5E72A9885BD00B97C7C /* Inter-SemiBold.ttf in Resources */,
+				EC1AF5E22A976AB500B97C7C /* Inter-ExtraBold.ttf in Resources */,
+				EC5E290C2AA682C100836FFB /* LevelCompleted.mp3 in Resources */,
+				ECA3D4A22A9E126400C47299 /* Data.json in Resources */,
+				ECCA45A62A96229500EAEC64 /* Poppins-Bold.otf in Resources */,
+				EC5E290F2AA682C100836FFB /* LevelFailed.mp3 in Resources */,
+				EC5E290D2AA682C100836FFB /* CorrectStep.mp3 in Resources */,
+				EC5637402A946B4B0095F799 /* Preview Assets.xcassets in Resources */,
+				EC56373D2A946B4B0095F799 /* Assets.xcassets in Resources */,
+				EC1AF5E12A976AB500B97C7C /* Inter-Black.ttf in Resources */,
+				EC5E29032AA67A0600836FFB /* GameView.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5637432A946B4B0095F799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56374D2A946B4B0095F799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5637312A946B4A0095F799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC827D902AA89CE8002AF442 /* MainMenuViewIphone14ProMax.swift in Sources */,
+				EC354A272AA8B39A005271F6 /* WinViewIphone14.swift in Sources */,
+				EC354A292AA8B3AE005271F6 /* LoseViewIphone14.swift in Sources */,
+				EC3549F52AA8A8D2005271F6 /* OptionViewIphone14ProMax.swift in Sources */,
+				EC354A312AA8B41D005271F6 /* LoseViewIphone14ProMax.swift in Sources */,
+				ECC1E9212A94714A00CE2F60 /* MainMenuView.swift in Sources */,
+				EC354A0D2AA8AF7D005271F6 /* ContinueViewIpad12.swift in Sources */,
+				EC354A132AA8B165005271F6 /* HowToPlayViewIphone14ProMax.swift in Sources */,
+				EC354A2B2AA8B3CC005271F6 /* GameViewIphone14ProMax.swift in Sources */,
+				EC3549FE2AA8ABF7005271F6 /* ProfileViewIphone14ProMax.swift in Sources */,
+				EC6F90DF2AA51199008763FE /* Ipad11Tile.swift in Sources */,
+				EC56373B2A946B4A0095F799 /* ContentView.swift in Sources */,
+				EC354A042AA8AC4B005271F6 /* ProfileViewHelper.swift in Sources */,
+				EC354A022AA8AC2E005271F6 /* ProfileViewIpad12.swift in Sources */,
+				EC354A352AA8B44B005271F6 /* PauseViewIpad11.swift in Sources */,
+				EC3549F92AA8A906005271F6 /* OptionViewIpad12.swift in Sources */,
+				EC354A002AA8AC1E005271F6 /* ProfileViewIpad11.swift in Sources */,
+				EC354A392AA8B47C005271F6 /* LoseViewIpad11.swift in Sources */,
+				EC354A1D2AA8B309005271F6 /* PauseViewIpad12.swift in Sources */,
+				EC354A2F2AA8B402005271F6 /* WinViewIphone14ProMax.swift in Sources */,
+				EC3549ED2AA8A5E9005271F6 /* LeaderboardViewIpad11.swift in Sources */,
+				EC827D942AA89D7F002AF442 /* MainMenuViewIpad12.swift in Sources */,
+				EC354A372AA8B45E005271F6 /* WinViewIpad11.swift in Sources */,
+				EC3549EF2AA8A604005271F6 /* LeaderboardViewIpad12.swift in Sources */,
+				EC3549F32AA8A8A9005271F6 /* OptionViewIphone14.swift in Sources */,
+				EC354A212AA8B346005271F6 /* LoseViewIpad12.swift in Sources */,
+				EC3549FC2AA8ABCD005271F6 /* ProfileViewIphone14.swift in Sources */,
+				ECB5E5302AA51F7C002E3DBC /* Ipad12Tile.swift in Sources */,
+				EC354A0B2AA8AF6B005271F6 /* ContinueViewIpad11.swift in Sources */,
+				EC354A092AA8AF4B005271F6 /* ContinueViewIphone14ProMax.swift in Sources */,
+				EC354A192AA8B1B9005271F6 /* HowToPlayViewHelper.swift in Sources */,
+				EC354A172AA8B19C005271F6 /* HowToPlayViewIpad12.swift in Sources */,
+				EC3549EB2AA8A5B0005271F6 /* LeaderboardViewIphone14ProMax.swift in Sources */,
+				EC354A232AA8B35B005271F6 /* GameViewIphone14.swift in Sources */,
+				EC1AF5E92A9CCCBC00B97C7C /* GameViewHelper.swift in Sources */,
+				EC354A1F2AA8B323005271F6 /* WinViewIpad12.swift in Sources */,
+				EC354A2D2AA8B3E5005271F6 /* PauseViewIphone14ProMax.swift in Sources */,
+				EC6F90D92AA4AD2C008763FE /* Iphone14ProMaxTile.swift in Sources */,
+				EC3549E92AA8A58C005271F6 /* LeaderboardViewIphone14.swift in Sources */,
+				ECEF43B62AA10EF700630C3C /* Iphone14Tile.swift in Sources */,
+				EC354A072AA8AF33005271F6 /* ContinueViewIphone14.swift in Sources */,
+				EC354A1B2AA8B2E2005271F6 /* GameViewIpad12.swift in Sources */,
+				ECEF43AF2AA1058C00630C3C /* GameFunction.swift in Sources */,
+				EC354A112AA8B143005271F6 /* HowToPlayViewIphone14.swift in Sources */,
+				EC827D922AA89D4E002AF442 /* MainMenuViewIpad11.swift in Sources */,
+				EC827D8E2AA89533002AF442 /* MainMenuViewIphone14.swift in Sources */,
+				EC354A332AA8B432005271F6 /* GameViewIpad11.swift in Sources */,
+				EC354A252AA8B384005271F6 /* PauseViewIphone14.swift in Sources */,
+				ECA3D49C2A9E0B0D00C47299 /* Player.swift in Sources */,
+				EC5637392A946B4A0095F799 /* SpaceNogramApp.swift in Sources */,
+				EC3549F72AA8A8EB005271F6 /* OptionViewIpad11.swift in Sources */,
+				EC5E28F92AA664C600836FFB /* AudioManager.swift in Sources */,
+				EC354A152AA8B182005271F6 /* HowToPlayViewIpad11.swift in Sources */,
+				ECA3D4A02A9E0D8700C47299 /* GameDataStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5637412A946B4B0095F799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56374A2A946B4B0095F799 /* SpaceNogramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56374B2A946B4B0095F799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5637542A946B4B0095F799 /* SpaceNogramUITests.swift in Sources */,
+				EC5637562A946B4B0095F799 /* SpaceNogramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5637472A946B4B0095F799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5637342A946B4A0095F799 /* SpaceNogram */;
+			targetProxy = EC5637462A946B4B0095F799 /* PBXContainerItemProxy */;
+		};
+		EC5637512A946B4B0095F799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5637342A946B4A0095F799 /* SpaceNogram */;
+			targetProxy = EC5637502A946B4B0095F799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC5637572A946B4B0095F799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5637582A946B4B0095F799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC56375A2A946B4B0095F799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceNogram/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceNogram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpaceNogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC56375B2A946B4B0095F799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceNogram/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceNogram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpaceNogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC56375D2A946B4B0095F799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpaceNogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceNogram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceNogram";
+			};
+			name = Debug;
+		};
+		EC56375E2A946B4B0095F799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpaceNogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceNogram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceNogram";
+			};
+			name = Release;
+		};
+		EC5637602A946B4B0095F799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpaceNogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceNogram;
+			};
+			name = Debug;
+		};
+		EC5637612A946B4B0095F799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpaceNogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceNogram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5637302A946B4A0095F799 /* Build configuration list for PBXProject "SpaceNogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5637572A946B4B0095F799 /* Debug */,
+				EC5637582A946B4B0095F799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5637592A946B4B0095F799 /* Build configuration list for PBXNativeTarget "SpaceNogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56375A2A946B4B0095F799 /* Debug */,
+				EC56375B2A946B4B0095F799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56375C2A946B4B0095F799 /* Build configuration list for PBXNativeTarget "SpaceNogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56375D2A946B4B0095F799 /* Debug */,
+				EC56375E2A946B4B0095F799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56375F2A946B4B0095F799 /* Build configuration list for PBXNativeTarget "SpaceNogramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5637602A946B4B0095F799 /* Debug */,
+				EC5637612A946B4B0095F799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC56372D2A946B4A0095F799 /* Project object */;
+}
